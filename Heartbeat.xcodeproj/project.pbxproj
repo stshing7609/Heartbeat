@@ -1,0 +1,619 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0162B153192AC97B00307DF8 /* GameOverScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 0162B152192AC97B00307DF8 /* GameOverScene.m */; };
+		B03946A2192B12E2009179CD /* SoundBuddy.m in Sources */ = {isa = PBXBuildFile; fileRef = B03946A1192B12E2009179CD /* SoundBuddy.m */; };
+		B03946A8192B13C5009179CD /* bg.wav in Resources */ = {isa = PBXBuildFile; fileRef = B03946A3192B13C5009179CD /* bg.wav */; };
+		B03946A9192B13C5009179CD /* gameover.wav in Resources */ = {isa = PBXBuildFile; fileRef = B03946A4192B13C5009179CD /* gameover.wav */; };
+		B03946AA192B13C5009179CD /* hit.wav in Resources */ = {isa = PBXBuildFile; fileRef = B03946A5192B13C5009179CD /* hit.wav */; };
+		B03946AB192B13C5009179CD /* hpup.wav in Resources */ = {isa = PBXBuildFile; fileRef = B03946A6192B13C5009179CD /* hpup.wav */; };
+		B03946AC192B13C5009179CD /* pill.wav in Resources */ = {isa = PBXBuildFile; fileRef = B03946A7192B13C5009179CD /* pill.wav */; };
+		B08A4BD219254E4700CBFB45 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B08A4BD119254E4700CBFB45 /* Foundation.framework */; };
+		B08A4BD419254E4700CBFB45 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B08A4BD319254E4700CBFB45 /* CoreGraphics.framework */; };
+		B08A4BD619254E4700CBFB45 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B08A4BD519254E4700CBFB45 /* UIKit.framework */; };
+		B08A4BD819254E4700CBFB45 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B08A4BD719254E4700CBFB45 /* SpriteKit.framework */; };
+		B08A4BDE19254E4700CBFB45 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B08A4BDC19254E4700CBFB45 /* InfoPlist.strings */; };
+		B08A4BE019254E4700CBFB45 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B08A4BDF19254E4700CBFB45 /* main.m */; };
+		B08A4BE419254E4700CBFB45 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B08A4BE319254E4700CBFB45 /* AppDelegate.m */; };
+		B08A4BE719254E4700CBFB45 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B08A4BE519254E4700CBFB45 /* Main_iPhone.storyboard */; };
+		B08A4BEA19254E4700CBFB45 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B08A4BE819254E4700CBFB45 /* Main_iPad.storyboard */; };
+		B08A4BED19254E4700CBFB45 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B08A4BEC19254E4700CBFB45 /* ViewController.m */; };
+		B08A4BF219254E4700CBFB45 /* Spaceship.png in Resources */ = {isa = PBXBuildFile; fileRef = B08A4BF119254E4700CBFB45 /* Spaceship.png */; };
+		B08A4BF419254E4700CBFB45 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B08A4BF319254E4700CBFB45 /* Images.xcassets */; };
+		B08A4BFB19254E4700CBFB45 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B08A4BFA19254E4700CBFB45 /* XCTest.framework */; };
+		B08A4BFC19254E4700CBFB45 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B08A4BD119254E4700CBFB45 /* Foundation.framework */; };
+		B08A4BFD19254E4700CBFB45 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B08A4BD519254E4700CBFB45 /* UIKit.framework */; };
+		B08A4C0519254E4700CBFB45 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B08A4C0319254E4700CBFB45 /* InfoPlist.strings */; };
+		B08A4C0719254E4700CBFB45 /* HeartbeatTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B08A4C0619254E4700CBFB45 /* HeartbeatTests.m */; };
+		B08A4C1C1925506D00CBFB45 /* CellParticle.sks in Resources */ = {isa = PBXBuildFile; fileRef = B08A4C111925506D00CBFB45 /* CellParticle.sks */; };
+		B08A4C1D1925506D00CBFB45 /* DataStore.m in Sources */ = {isa = PBXBuildFile; fileRef = B08A4C131925506D00CBFB45 /* DataStore.m */; };
+		B08A4C1E1925506D00CBFB45 /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = B08A4C151925506D00CBFB45 /* GameScene.m */; };
+		B08A4C1F1925506D00CBFB45 /* Lifeline.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B08A4C161925506D00CBFB45 /* Lifeline.ttf */; };
+		B08A4C201925506D00CBFB45 /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = B08A4C171925506D00CBFB45 /* spark.png */; };
+		B08A4C221925506D00CBFB45 /* TitleScene.m in Sources */ = {isa = PBXBuildFile; fileRef = B08A4C1A1925506D00CBFB45 /* TitleScene.m */; };
+		B08A4C27192551AC00CBFB45 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B08A4C26192551AC00CBFB45 /* AVFoundation.framework */; };
+		B08A4C29192551B200CBFB45 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B08A4C28192551B200CBFB45 /* MediaPlayer.framework */; };
+		B08A4C2B192551C500CBFB45 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B08A4C2A192551C500CBFB45 /* CoreBluetooth.framework */; };
+		B0FD2D7D192575D7008FC638 /* InstructionsScene.m in Sources */ = {isa = PBXBuildFile; fileRef = B0FD2D7C192575D7008FC638 /* InstructionsScene.m */; };
+		B0FD2D80192579BD008FC638 /* CreditsScene.m in Sources */ = {isa = PBXBuildFile; fileRef = B0FD2D7F192579BD008FC638 /* CreditsScene.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B08A4BFE19254E4700CBFB45 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B08A4BC619254E4700CBFB45 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B08A4BCD19254E4700CBFB45;
+			remoteInfo = Heartbeat;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0162B151192AC97B00307DF8 /* GameOverScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameOverScene.h; sourceTree = "<group>"; };
+		0162B152192AC97B00307DF8 /* GameOverScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameOverScene.m; sourceTree = "<group>"; };
+		B03946A0192B12E2009179CD /* SoundBuddy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoundBuddy.h; sourceTree = "<group>"; };
+		B03946A1192B12E2009179CD /* SoundBuddy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoundBuddy.m; sourceTree = "<group>"; };
+		B03946A3192B13C5009179CD /* bg.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = bg.wav; sourceTree = "<group>"; };
+		B03946A4192B13C5009179CD /* gameover.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = gameover.wav; sourceTree = "<group>"; };
+		B03946A5192B13C5009179CD /* hit.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = hit.wav; sourceTree = "<group>"; };
+		B03946A6192B13C5009179CD /* hpup.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = hpup.wav; sourceTree = "<group>"; };
+		B03946A7192B13C5009179CD /* pill.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = pill.wav; sourceTree = "<group>"; };
+		B08A4BCE19254E4700CBFB45 /* Heartbeat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Heartbeat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B08A4BD119254E4700CBFB45 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B08A4BD319254E4700CBFB45 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B08A4BD519254E4700CBFB45 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B08A4BD719254E4700CBFB45 /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		B08A4BDB19254E4700CBFB45 /* Heartbeat-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Heartbeat-Info.plist"; sourceTree = "<group>"; };
+		B08A4BDD19254E4700CBFB45 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B08A4BDF19254E4700CBFB45 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B08A4BE119254E4700CBFB45 /* Heartbeat-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Heartbeat-Prefix.pch"; sourceTree = "<group>"; };
+		B08A4BE219254E4700CBFB45 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B08A4BE319254E4700CBFB45 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B08A4BE619254E4700CBFB45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		B08A4BE919254E4700CBFB45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		B08A4BEB19254E4700CBFB45 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B08A4BEC19254E4700CBFB45 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B08A4BF119254E4700CBFB45 /* Spaceship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spaceship.png; sourceTree = "<group>"; };
+		B08A4BF319254E4700CBFB45 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B08A4BF919254E4700CBFB45 /* HeartbeatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HeartbeatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B08A4BFA19254E4700CBFB45 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		B08A4C0219254E4700CBFB45 /* HeartbeatTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HeartbeatTests-Info.plist"; sourceTree = "<group>"; };
+		B08A4C0419254E4700CBFB45 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B08A4C0619254E4700CBFB45 /* HeartbeatTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HeartbeatTests.m; sourceTree = "<group>"; };
+		B08A4C111925506D00CBFB45 /* CellParticle.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = CellParticle.sks; sourceTree = "<group>"; };
+		B08A4C121925506D00CBFB45 /* DataStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataStore.h; sourceTree = "<group>"; };
+		B08A4C131925506D00CBFB45 /* DataStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataStore.m; sourceTree = "<group>"; };
+		B08A4C141925506D00CBFB45 /* GameScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
+		B08A4C151925506D00CBFB45 /* GameScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameScene.m; sourceTree = "<group>"; };
+		B08A4C161925506D00CBFB45 /* Lifeline.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Lifeline.ttf; sourceTree = "<group>"; };
+		B08A4C171925506D00CBFB45 /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
+		B08A4C191925506D00CBFB45 /* TitleScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TitleScene.h; sourceTree = "<group>"; };
+		B08A4C1A1925506D00CBFB45 /* TitleScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TitleScene.m; sourceTree = "<group>"; };
+		B08A4C26192551AC00CBFB45 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		B08A4C28192551B200CBFB45 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		B08A4C2A192551C500CBFB45 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		B0FD2D7B192575D7008FC638 /* InstructionsScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InstructionsScene.h; sourceTree = "<group>"; };
+		B0FD2D7C192575D7008FC638 /* InstructionsScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InstructionsScene.m; sourceTree = "<group>"; };
+		B0FD2D7E192579BD008FC638 /* CreditsScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreditsScene.h; sourceTree = "<group>"; };
+		B0FD2D7F192579BD008FC638 /* CreditsScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreditsScene.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B08A4BCB19254E4700CBFB45 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B08A4C2B192551C500CBFB45 /* CoreBluetooth.framework in Frameworks */,
+				B08A4C29192551B200CBFB45 /* MediaPlayer.framework in Frameworks */,
+				B08A4C27192551AC00CBFB45 /* AVFoundation.framework in Frameworks */,
+				B08A4BD419254E4700CBFB45 /* CoreGraphics.framework in Frameworks */,
+				B08A4BD619254E4700CBFB45 /* UIKit.framework in Frameworks */,
+				B08A4BD819254E4700CBFB45 /* SpriteKit.framework in Frameworks */,
+				B08A4BD219254E4700CBFB45 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B08A4BF619254E4700CBFB45 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B08A4BFB19254E4700CBFB45 /* XCTest.framework in Frameworks */,
+				B08A4BFD19254E4700CBFB45 /* UIKit.framework in Frameworks */,
+				B08A4BFC19254E4700CBFB45 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B039469F192B12B5009179CD /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				B03946A3192B13C5009179CD /* bg.wav */,
+				B03946A4192B13C5009179CD /* gameover.wav */,
+				B03946A5192B13C5009179CD /* hit.wav */,
+				B03946A6192B13C5009179CD /* hpup.wav */,
+				B03946A7192B13C5009179CD /* pill.wav */,
+			);
+			name = Sounds;
+			sourceTree = "<group>";
+		};
+		B08A4BC519254E4700CBFB45 = {
+			isa = PBXGroup;
+			children = (
+				B08A4BD919254E4700CBFB45 /* Heartbeat */,
+				B08A4C0019254E4700CBFB45 /* HeartbeatTests */,
+				B08A4BD019254E4700CBFB45 /* Frameworks */,
+				B08A4BCF19254E4700CBFB45 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B08A4BCF19254E4700CBFB45 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B08A4BCE19254E4700CBFB45 /* Heartbeat.app */,
+				B08A4BF919254E4700CBFB45 /* HeartbeatTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B08A4BD019254E4700CBFB45 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B08A4C2A192551C500CBFB45 /* CoreBluetooth.framework */,
+				B08A4C28192551B200CBFB45 /* MediaPlayer.framework */,
+				B08A4C26192551AC00CBFB45 /* AVFoundation.framework */,
+				B08A4BD119254E4700CBFB45 /* Foundation.framework */,
+				B08A4BD319254E4700CBFB45 /* CoreGraphics.framework */,
+				B08A4BD519254E4700CBFB45 /* UIKit.framework */,
+				B08A4BD719254E4700CBFB45 /* SpriteKit.framework */,
+				B08A4BFA19254E4700CBFB45 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B08A4BD919254E4700CBFB45 /* Heartbeat */ = {
+			isa = PBXGroup;
+			children = (
+				B039469F192B12B5009179CD /* Sounds */,
+				B08A4C161925506D00CBFB45 /* Lifeline.ttf */,
+				B08A4C241925507F00CBFB45 /* Sprites */,
+				B08A4C231925507600CBFB45 /* Data */,
+				B08A4C251925509400CBFB45 /* Scenes */,
+				B08A4BE219254E4700CBFB45 /* AppDelegate.h */,
+				B08A4BE319254E4700CBFB45 /* AppDelegate.m */,
+				B08A4BE519254E4700CBFB45 /* Main_iPhone.storyboard */,
+				B08A4BE819254E4700CBFB45 /* Main_iPad.storyboard */,
+				B08A4BEB19254E4700CBFB45 /* ViewController.h */,
+				B08A4BEC19254E4700CBFB45 /* ViewController.m */,
+				B03946A0192B12E2009179CD /* SoundBuddy.h */,
+				B03946A1192B12E2009179CD /* SoundBuddy.m */,
+				B08A4BF319254E4700CBFB45 /* Images.xcassets */,
+				B08A4BDA19254E4700CBFB45 /* Supporting Files */,
+			);
+			path = Heartbeat;
+			sourceTree = "<group>";
+		};
+		B08A4BDA19254E4700CBFB45 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B08A4BDB19254E4700CBFB45 /* Heartbeat-Info.plist */,
+				B08A4BDC19254E4700CBFB45 /* InfoPlist.strings */,
+				B08A4BDF19254E4700CBFB45 /* main.m */,
+				B08A4BE119254E4700CBFB45 /* Heartbeat-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B08A4C0019254E4700CBFB45 /* HeartbeatTests */ = {
+			isa = PBXGroup;
+			children = (
+				B08A4C0619254E4700CBFB45 /* HeartbeatTests.m */,
+				B08A4C0119254E4700CBFB45 /* Supporting Files */,
+			);
+			path = HeartbeatTests;
+			sourceTree = "<group>";
+		};
+		B08A4C0119254E4700CBFB45 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B08A4C0219254E4700CBFB45 /* HeartbeatTests-Info.plist */,
+				B08A4C0319254E4700CBFB45 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B08A4C231925507600CBFB45 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				B08A4C121925506D00CBFB45 /* DataStore.h */,
+				B08A4C131925506D00CBFB45 /* DataStore.m */,
+			);
+			name = Data;
+			sourceTree = "<group>";
+		};
+		B08A4C241925507F00CBFB45 /* Sprites */ = {
+			isa = PBXGroup;
+			children = (
+				B08A4C111925506D00CBFB45 /* CellParticle.sks */,
+				B08A4C171925506D00CBFB45 /* spark.png */,
+				B08A4BF119254E4700CBFB45 /* Spaceship.png */,
+			);
+			name = Sprites;
+			sourceTree = "<group>";
+		};
+		B08A4C251925509400CBFB45 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				B08A4C141925506D00CBFB45 /* GameScene.h */,
+				B08A4C151925506D00CBFB45 /* GameScene.m */,
+				B08A4C191925506D00CBFB45 /* TitleScene.h */,
+				B08A4C1A1925506D00CBFB45 /* TitleScene.m */,
+				B0FD2D7B192575D7008FC638 /* InstructionsScene.h */,
+				B0FD2D7C192575D7008FC638 /* InstructionsScene.m */,
+				B0FD2D7E192579BD008FC638 /* CreditsScene.h */,
+				B0FD2D7F192579BD008FC638 /* CreditsScene.m */,
+				0162B151192AC97B00307DF8 /* GameOverScene.h */,
+				0162B152192AC97B00307DF8 /* GameOverScene.m */,
+			);
+			name = Scenes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B08A4BCD19254E4700CBFB45 /* Heartbeat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B08A4C0A19254E4700CBFB45 /* Build configuration list for PBXNativeTarget "Heartbeat" */;
+			buildPhases = (
+				B08A4BCA19254E4700CBFB45 /* Sources */,
+				B08A4BCB19254E4700CBFB45 /* Frameworks */,
+				B08A4BCC19254E4700CBFB45 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Heartbeat;
+			productName = Heartbeat;
+			productReference = B08A4BCE19254E4700CBFB45 /* Heartbeat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B08A4BF819254E4700CBFB45 /* HeartbeatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B08A4C0D19254E4700CBFB45 /* Build configuration list for PBXNativeTarget "HeartbeatTests" */;
+			buildPhases = (
+				B08A4BF519254E4700CBFB45 /* Sources */,
+				B08A4BF619254E4700CBFB45 /* Frameworks */,
+				B08A4BF719254E4700CBFB45 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B08A4BFF19254E4700CBFB45 /* PBXTargetDependency */,
+			);
+			name = HeartbeatTests;
+			productName = HeartbeatTests;
+			productReference = B08A4BF919254E4700CBFB45 /* HeartbeatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B08A4BC619254E4700CBFB45 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Steven Shing";
+				TargetAttributes = {
+					B08A4BF819254E4700CBFB45 = {
+						TestTargetID = B08A4BCD19254E4700CBFB45;
+					};
+				};
+			};
+			buildConfigurationList = B08A4BC919254E4700CBFB45 /* Build configuration list for PBXProject "Heartbeat" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B08A4BC519254E4700CBFB45;
+			productRefGroup = B08A4BCF19254E4700CBFB45 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B08A4BCD19254E4700CBFB45 /* Heartbeat */,
+				B08A4BF819254E4700CBFB45 /* HeartbeatTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B08A4BCC19254E4700CBFB45 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B03946AA192B13C5009179CD /* hit.wav in Resources */,
+				B03946A9192B13C5009179CD /* gameover.wav in Resources */,
+				B03946A8192B13C5009179CD /* bg.wav in Resources */,
+				B08A4C1F1925506D00CBFB45 /* Lifeline.ttf in Resources */,
+				B08A4C201925506D00CBFB45 /* spark.png in Resources */,
+				B08A4BF219254E4700CBFB45 /* Spaceship.png in Resources */,
+				B08A4BF419254E4700CBFB45 /* Images.xcassets in Resources */,
+				B08A4BEA19254E4700CBFB45 /* Main_iPad.storyboard in Resources */,
+				B08A4C1C1925506D00CBFB45 /* CellParticle.sks in Resources */,
+				B03946AB192B13C5009179CD /* hpup.wav in Resources */,
+				B03946AC192B13C5009179CD /* pill.wav in Resources */,
+				B08A4BE719254E4700CBFB45 /* Main_iPhone.storyboard in Resources */,
+				B08A4BDE19254E4700CBFB45 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B08A4BF719254E4700CBFB45 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B08A4C0519254E4700CBFB45 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B08A4BCA19254E4700CBFB45 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B08A4C1D1925506D00CBFB45 /* DataStore.m in Sources */,
+				0162B153192AC97B00307DF8 /* GameOverScene.m in Sources */,
+				B08A4C221925506D00CBFB45 /* TitleScene.m in Sources */,
+				B08A4BED19254E4700CBFB45 /* ViewController.m in Sources */,
+				B08A4BE419254E4700CBFB45 /* AppDelegate.m in Sources */,
+				B08A4C1E1925506D00CBFB45 /* GameScene.m in Sources */,
+				B0FD2D80192579BD008FC638 /* CreditsScene.m in Sources */,
+				B0FD2D7D192575D7008FC638 /* InstructionsScene.m in Sources */,
+				B03946A2192B12E2009179CD /* SoundBuddy.m in Sources */,
+				B08A4BE019254E4700CBFB45 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B08A4BF519254E4700CBFB45 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B08A4C0719254E4700CBFB45 /* HeartbeatTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B08A4BFF19254E4700CBFB45 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B08A4BCD19254E4700CBFB45 /* Heartbeat */;
+			targetProxy = B08A4BFE19254E4700CBFB45 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B08A4BDC19254E4700CBFB45 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B08A4BDD19254E4700CBFB45 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B08A4BE519254E4700CBFB45 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B08A4BE619254E4700CBFB45 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		B08A4BE819254E4700CBFB45 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B08A4BE919254E4700CBFB45 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		B08A4C0319254E4700CBFB45 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B08A4C0419254E4700CBFB45 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B08A4C0819254E4700CBFB45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B08A4C0919254E4700CBFB45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B08A4C0B19254E4700CBFB45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Heartbeat/Heartbeat-Prefix.pch";
+				INFOPLIST_FILE = "Heartbeat/Heartbeat-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B08A4C0C19254E4700CBFB45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Heartbeat/Heartbeat-Prefix.pch";
+				INFOPLIST_FILE = "Heartbeat/Heartbeat-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		B08A4C0E19254E4700CBFB45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Heartbeat.app/Heartbeat";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Heartbeat/Heartbeat-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "HeartbeatTests/HeartbeatTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		B08A4C0F19254E4700CBFB45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Heartbeat.app/Heartbeat";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Heartbeat/Heartbeat-Prefix.pch";
+				INFOPLIST_FILE = "HeartbeatTests/HeartbeatTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B08A4BC919254E4700CBFB45 /* Build configuration list for PBXProject "Heartbeat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B08A4C0819254E4700CBFB45 /* Debug */,
+				B08A4C0919254E4700CBFB45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B08A4C0A19254E4700CBFB45 /* Build configuration list for PBXNativeTarget "Heartbeat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B08A4C0B19254E4700CBFB45 /* Debug */,
+				B08A4C0C19254E4700CBFB45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B08A4C0D19254E4700CBFB45 /* Build configuration list for PBXNativeTarget "HeartbeatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B08A4C0E19254E4700CBFB45 /* Debug */,
+				B08A4C0F19254E4700CBFB45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B08A4BC619254E4700CBFB45 /* Project object */;
+}
